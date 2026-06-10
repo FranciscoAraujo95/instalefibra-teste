@@ -24,8 +24,12 @@
 }
 
 @media (max-width: 800px) {
+  .vantagens h2 {
+    margin-bottom: 0px;
+  }
   .vantagens-bg {
     padding: 60px 20px;
+    padding-top: 30px;
   }
   .vantagens {
     gap: 40px;

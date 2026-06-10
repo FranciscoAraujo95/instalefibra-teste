@@ -108,6 +108,10 @@
 }
 
 @media (max-width: 600px) {
+  .bicicleta {
+    padding-top: 1rem;
+  }
+
   .bicicleta-informacoes {
     grid-template-columns: 1fr;
   }
