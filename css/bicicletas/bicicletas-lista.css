@@ -55,9 +55,17 @@
 
 @media (max-width: 800px) {
   .bicicletas-lista {
-    padding-bottom: 60px;
+    padding: 20px 0;
   }
   .bicicletas-lista ul {
     gap: 20px;
+  }
+
+  .bicicletas-lista h3 {
+    font-size: var(--font-1-l);
+  }
+
+  .bicicletas-lista li span {
+    font-size: var(--font-2-s);
   }
 }
