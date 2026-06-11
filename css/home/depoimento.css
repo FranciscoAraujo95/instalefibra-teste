@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+body.ativo .depoimento {
+  --cor-p1: #008239;
+}
+
 .depoimento img {
   border-radius: 0px;
   width: 100%;
@@ -28,6 +32,14 @@
   position: relative;
 }
 
+body.ativo .depoimento-conteudo p {
+  color: var(--cor-1);
+}
+
+body.ativo .depoimento-conteudo span {
+  color: var(--cor-3);
+}
+
 .depoimento p::before,
 .depoimento p::after {
   position: absolute;
@@ -42,8 +54,16 @@
   top: -20px;
 }
 
+body.ativo .depoimento p::before {
+  color: #004b1c;
+}
+
 .depoimento p::after {
   content: "”";
+}
+
+body.ativo .depoimento p::after {
+  color: #004b1c;
 }
 
 @media (min-width: 1200px) {
