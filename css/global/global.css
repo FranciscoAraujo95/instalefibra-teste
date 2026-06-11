@@ -4,6 +4,13 @@ body {
   color: #111111;
 }
 
+body.ativo {
+  --cor-12: #008239;
+  --cor-11: #004b1c;
+  --cor-5: #ededed;
+  transition: 0.3s;
+}
+
 h1,
 h2,
 h3,

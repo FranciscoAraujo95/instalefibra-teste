@@ -14,6 +14,7 @@
 .header-menu {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 40px;
 }
 
@@ -60,9 +61,33 @@
 @media (max-width: 600px) {
   .header-menu {
     gap: 12px;
+    width: 100%;
   }
+
   .header-menu a {
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+
+.btn-theme {
+  width: 14px;
+  height: 14px;
+  background: #008239;
+  border-radius: 50%;
+  border: 1px solid var(--cor-0);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-theme.ativo {
+  background: #001d81;
+}
+
+.btn-theme.ativo:hover {
+  background: #101e4f;
+}
+
+.btn-theme:hover {
+  background: #004b1c;
 }
