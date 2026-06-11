@@ -7,7 +7,9 @@ body {
 body.ativo {
   --cor-12: #008239;
   --cor-11: #004b1c;
+  --cor-4: #dedede;
   --cor-5: #ededed;
+  --cor-6: #dedede;
   transition: 0.3s;
 }
 
