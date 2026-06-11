@@ -115,13 +115,13 @@
   .bicicleta-informacoes {
     grid-template-columns: 1fr;
   }
-}
 
-@media (max-width: 400px) {
   .bicicleta-comprar {
     grid-template-columns: 1fr;
   }
+}
 
+@media (max-width: 400px) {
   .bicicleta-informacoes {
     grid-template-columns: 1fr;
     gap: 10px;
